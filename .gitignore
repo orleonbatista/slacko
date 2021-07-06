@@ -1,18 +1,11 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+### Vagrant ###
+# General
+.vagrant/
 
-# Other files and folders
-.settings/
+# Log files (if you are creating logs in debug mode, uncomment this)
+# *.log
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+### Vagrant Patch ###
+*.box
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# End of https://www.toptal.com/developers/gitignore/api/vagrant
