@@ -1,0 +1,16 @@
+---
+# handlers file for slacko
+
+- name: "enable mongodb"
+  ansible.builtin.systemd: 
+    name: mongodb
+    state: started
+    enable: yes
+
+- name: "started slacko-api.service" 
+  ansible.builtin.systemd: 
+    name: slacko-api.service
+    state: started
+    enable: yes   
+
+

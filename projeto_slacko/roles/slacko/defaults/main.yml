@@ -1,0 +1,4 @@
+---
+# defaults file for slacko
+service_slacko: "/etc/systemd/system/slacko-api.service"
+path_api: "/opt/slacko-api/"
